@@ -1,8 +1,8 @@
 import numpy as np
 import tensorflow as tf
 import logging
-from lib.vae import VariationalAutoEncoder
-from lib.utils import *
+from aelib.vae import VariationalAutoEncoder
+from aelib.utils import *
 
 if __name__ == '__main__':
     # gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.333)

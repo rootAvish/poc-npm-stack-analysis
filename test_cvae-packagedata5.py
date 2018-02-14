@@ -1,10 +1,10 @@
 import sys
 sys.path.append("..")
-from lib.cvae import *
+from aelib.cvae import *
 import numpy as np
 import tensorflow as tf
 import scipy.io
-from lib.utils import *
+from aelib.utils import *
 
 np.random.seed(0)
 tf.set_random_seed(0)
